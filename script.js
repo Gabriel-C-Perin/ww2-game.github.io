@@ -141,7 +141,7 @@ function showCharacterSelection() {
     const storyText = document.getElementById('story-text');
     storyText.innerHTML = `
         <p>Escolha seu personagem:</p>
-        <button onclick="startStory('soldier')">🪖 Soldado</button>
+        <button onclick="startStory('soldier')">⚔ Soldado</button>
         <button onclick="startStory('civilian')">🏠 Civil</button>
         <button onclick="startStory('leader')">🎩 Líder</button>
     `;
